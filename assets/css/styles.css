@@ -9,6 +9,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -739,6 +740,10 @@ a {
     color: #535353;
     font-size: 1.6rem;
     font-weight: 400;
+}
+
+.footer .list li a:hover {
+    text-decoration: underline;
 }
 
 .footer .list.social a {
